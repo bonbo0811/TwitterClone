@@ -8,7 +8,7 @@ include_once '../config.php';
 // 便利な関数の読み込み
 include_once '../util.php';
 
-// TODOログインチェック
+// ログインチェック
 $user = getUserSession();
 if (!$user){
     // ログインしていない
